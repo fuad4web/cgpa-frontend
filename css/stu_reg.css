@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right bottom, #94d4af59, #9ad6d882, #d6c3d39e, #c5bf9f, #bbbda0), url(harvardstudents.jpg);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background: linear-gradient(to bottom, #c1c78c, #d0e60c);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    width: 385px;
+    max-width: 100%;
+}
+.header {
+    background-color: rgb(228, 194, 170);
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.header h2{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form {
+    padding: 20px 12px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.form-control input, .form-control select {
+    border: 2px solid #f0f0f0;
+    color: rgb(252, 8, 199);
+    text-align: left;
+    outline: none;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif; /*it will use the first form that will be initialise at d beginning of this page from online site*/
+}
+.form-control select option {
+    color: rgb(12, 11, 12);
+    font-weight: 300;
+}
+.form .button {
+    background: #4bac50;
+    border: 2px solid #0ce717;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 22px;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.admin_links {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    position: flex;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+/* .form-control.success input {
+    border-color: green;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+.form-control.sucess i.fa-check-circle {
+    visibility: visible;
+    color: green;
+}
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+} 
+.error {
+    color: red;
+    background-color: rgb(218, 153, 153);
+    text-align: center;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 30px;
+    margin-left: -2px;
+} */

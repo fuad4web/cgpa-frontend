@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^signin/?$ index.php [QSA]
+
+RewriteRule ^register/?$ stu_reg.php [QSA]
+
+RewriteRule ^cgpa/?$ cgpa.php [QSA]
