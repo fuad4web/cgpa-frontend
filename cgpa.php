@@ -1,14 +1,14 @@
 <?php
-      include 'core/init.php';
-      $gp_id = $_SESSION['gp_id'];
-      $user = $getFromG->userData($gp_id);
+      // include 'core/init.php';
+      // $gp_id = $_SESSION['gp_id'];
+      // $user = $getFromG->userData($gp_id);
 
-      if($getFromG->loggedIn() === false) {
-        header("Location: ".BASE_URL."");
-        // echo '<script>window.location.href = "index.php";</script>';
-      }
+      // if($getFromG->loggedIn() === false) {
+      //   header("Location: ".BASE_URL."");
+      //   // echo '<script>window.location.href = "index.php";</script>';
+      // }
 
-      $getAll = $getFromG->getAllStuNames();
+      // $getAll = $getFromG->getAllStuNames();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,7 @@
     <a href="validate/logout.php"><button name="logout" style="left:1; cursor:pointer; padding:3px; color:black; margin:5px">Logout</button></a>
       <!-- <form action="action.php" class="insert-form" method="POST" id="insert_form"> -->
         <hr>
-        <h1 class="text-center">I <?=@ $user->fullname ?> is Calculating GPA/CGPA from <?=@$user->inst_name;?> Higher Institution, studying <?=@ucwords($user->dept_name);?></h1>
+        <h1 class="text-center">I <?=@ $user->fullname ?> is Calculating GPA/CGPA from <?= @$user->inst_name; ?> Higher Institution, studying <?=@ucwords($user->dept_name);?></h1>
         <hr>
 
         <div class="row gpaHeader text-center">

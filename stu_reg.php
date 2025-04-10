@@ -1,8 +1,8 @@
 <?php 
-    include 'core/init.php';
-    if(isset($_SESSION['gp_id'])) {
-      header('Location: cgpa.php');
-    }
+    // include 'core/init.php';
+    // if(isset($_SESSION['gp_id'])) {
+    //   header('Location: cgpa.php');
+    // }
 ?>
 <!DOCTYPE html>
 <html lang="en">
